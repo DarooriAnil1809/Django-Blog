@@ -1,0 +1,21 @@
+ul {
+    list-style: none;
+    margin: 2rem auto;
+    width: 90%;
+    max-width: 20rem;
+    box-shadow: 0 2px 8px rgba(red, green, blue, alpha);
+    padding:1rem;
+    border-radius: 12px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 20rem;
+    
+}
+li {
+    margin:1rem 0;
+    text-align: center;
+    font-size: 1rem;
+    border-bottom: 1px solid aliceblue;
+
+}

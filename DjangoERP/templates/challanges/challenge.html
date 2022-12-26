@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block page_title %}
+    {{ monthname|title  }}
+{% endblock %}
+{% block content %}
+   
+    <h1>{{ monthname|title }} Birthday</h1>
+    {% if text is not None %}
+    <h2>{{ text }}</h2>
+    {% else %}
+    <p>There is no challange for this month</p>
+    {% endif %}
+{% endblock %}
